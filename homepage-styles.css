@@ -1,19 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap");
 
-:root {
-  --primary: #d8dee9;
-  --navbar: #4c566a;
-}
-
 html {
   height: 100vh;
+  width: 100vw;
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
   padding: 0;
-  background-color: var(--primary);
   font-family: "Montserrat", sans-serif;
   min-height: 100%;
   display: flex;
@@ -23,11 +18,11 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--navbar);
+  background-color: #b9d9eb;
 }
 /* navbar links */
 .nav-holder > li > a {
-  color: #eceff4;
+  color: black;
   text-decoration: none;
   padding: 1rem;
   margin: 0.3rem;
@@ -78,7 +73,6 @@ nav {
   .nav-holder {
     flex-direction: column;
     padding-block: 0rem;
-    width: 100%;
     gap: 0.2rem;
   }
 
@@ -89,29 +83,35 @@ nav {
 
 #about {
   display: flex;
-  margin: 0 3rem;
-  gap: 5rem;
-  margin-bottom: 3rem;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 2rem;
+  padding: 0rem;
+  /* background-color: #ffbcd9; */
 }
 
 .body-container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding-block: 5rem;
   flex: 1;
+  background-color: white;
 }
 
 #about-block {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  padding: 1rem;
-  aspect-ratio: 1/1;
-  transition: color 0.25s;
+  /* padding: 1rem; */
+  /* aspect-ratio: 1/1; */
+}
+
+#about-block > p {
+  font-weight: 700;
+  font-size: 20px;
 }
 
 #about-paragraph {
@@ -141,7 +141,6 @@ nav {
   width: 80%;
   justify-content: space-around;
   padding: 2rem;
-  border: 2px solid black;
 }
 
 @media (max-width: 1300px) {
@@ -166,6 +165,7 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 1rem;
 }
 
 #beanie-caption,
@@ -174,6 +174,9 @@ nav {
   margin-bottom: 0;
 }
 
-img {
-  max-width: 100%;
+#beanie-pic,
+#board-pic {
+  width: 100%;
+  border: 2px solid white;
+  border-radius: 10px;
 }
