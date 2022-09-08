@@ -18,7 +18,8 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #b9d9eb;
+  /* background-color: #b9d9eb; */
+  background-color: #def3fd;
 }
 /* navbar links */
 .nav-holder > li > a {
@@ -135,13 +136,14 @@ nav {
   align-self: center;
   display: flex;
   width: 80%;
-  justify-content: space-around;
+  justify-content: space-evenly;
   padding: 2rem;
 }
 
 @media (max-width: 1300px) {
   #photos {
     flex-direction: column;
+    align-items: center;
     gap: 1rem;
     margin-top: 5rem;
   }
@@ -149,6 +151,8 @@ nav {
 
 #photos > img {
   border-radius: 15px;
+  width: 100%;
+  height: auto;
 }
 
 #beanie-pic::after {
@@ -162,12 +166,13 @@ nav {
   flex-direction: column;
   align-items: center;
   padding: 1rem;
+  width: 40%;
 }
 
 #beanie-caption,
 #board-caption {
   text-align: center;
-  margin-bottom: 0;
+  margin-bottom: 1rem;
 }
 
 #beanie-pic,
