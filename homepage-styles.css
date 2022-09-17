@@ -190,3 +190,8 @@ footer {
   background-color: #def3fd;
   font-weight: 200;
 }
+
+#github {
+  text-decoration: none;
+  color: black;
+}
