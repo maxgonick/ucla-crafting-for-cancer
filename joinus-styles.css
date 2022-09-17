@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Raleway:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;700&family=Raleway:wght@400;500&display=swap");
 html {
   height: 100vh;
   width: 100vw;
@@ -146,12 +146,18 @@ nav {
 .contact-us,
 .application-blurb,
 .interest-form {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
+  font-weight: 500;
 }
-
+/* 
 footer {
   display: flex;
   justify-content: center;
   padding-block: 0.75rem;
   background-color: #def3fd;
+  font-weight: 200;
+} */
+
+.contact-us,
+.interest-form {
 }
