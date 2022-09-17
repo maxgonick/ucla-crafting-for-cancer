@@ -80,3 +80,78 @@ nav {
     width: 100%;
   }
 }
+
+.body-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex: 1;
+  gap: 2rem;
+}
+
+.application-blurb {
+  text-align: center;
+  font-weight: 500;
+  line-height: 2.5rem;
+}
+
+#emphasis {
+  font-weight: 700;
+}
+
+.contact-us {
+  text-align: center;
+  line-height: 2.5rem;
+}
+
+#groupme,
+#form {
+  display: inline-block;
+  padding: 0.3em 1.2em;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 2em;
+  box-sizing: border-box;
+  border-color: #4eb5f1;
+  border-style: solid;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  background-color: #4eb5f1;
+  text-align: center;
+  transition: all 0.2s;
+  font-size: 1.25rem;
+}
+
+#groupme:hover,
+#form:hover {
+  background-color: #4095c6;
+  transform: scale(1.1);
+}
+
+@media all and (max-width: 30em) {
+  #groupme,
+  #form {
+    display: block;
+    margin: 0.2em auto;
+  }
+}
+
+.interest-form {
+  text-align: center;
+  line-height: 2.5rem;
+}
+
+.contact-us,
+.application-blurb,
+.interest-form {
+  font-size: 1.25rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding-block: 0.75rem;
+  background-color: #def3fd;
+}
