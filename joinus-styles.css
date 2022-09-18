@@ -88,6 +88,7 @@ nav {
   align-items: center;
   flex-grow: 0.8;
   gap: 2rem;
+  padding-inline: 1rem;
 }
 
 .application-blurb {
