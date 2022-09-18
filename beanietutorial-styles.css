@@ -83,6 +83,10 @@ nav {
   .body-container > a {
     margin: 0.5rem 0 !important;
   }
+
+  ol > li {
+    margin-right: 1rem !important;
+  }
 }
 
 .body-container {
