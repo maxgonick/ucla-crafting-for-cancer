@@ -17,7 +17,6 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* background-color: #b9d9eb; */
   background-color: #def3fd;
 }
 /* navbar links */
@@ -101,4 +100,15 @@ footer {
 #github {
   text-decoration: none;
   color: black;
+}
+
+#email {
+  text-align: center;
+  line-height: 2rem;
+}
+
+#email,
+#groupme {
+  font-size: 1.5rem;
+  margin-top: 0;
 }
