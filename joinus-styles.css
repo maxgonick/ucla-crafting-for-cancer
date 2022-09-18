@@ -93,17 +93,17 @@ nav {
 .application-blurb {
   text-align: center;
   font-weight: 500;
-  line-height: 2.5rem;
+  line-height: 3.5rem;
 }
 
 #emphasis {
   font-weight: 700;
 }
 
-.contact-us {
+/* .contact-us {
   text-align: center;
   line-height: 2.5rem;
-}
+} */
 
 #groupme,
 #form {
@@ -121,7 +121,7 @@ nav {
   background-color: #4eb5f1;
   text-align: center;
   transition: all 0.2s;
-  font-size: 1.25rem;
+  font-size: 2rem;
 }
 
 #groupme:hover,
@@ -138,15 +138,14 @@ nav {
   }
 }
 
-.interest-form {
+/* .interest-form {
   text-align: center;
-  line-height: 2.5rem;
-}
+} */
 
 .contact-us,
 .application-blurb,
 .interest-form {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 500;
 }
 /* 
@@ -160,4 +159,6 @@ footer {
 
 .contact-us,
 .interest-form {
+  text-align: center;
+  line-height: 4rem;
 }
