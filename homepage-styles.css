@@ -82,7 +82,6 @@ nav {
 
   .nav-holder {
     position: fixed;
-    /* left: -100%; */
     top: -100%;
     flex-direction: column;
     background-color: #fff;
