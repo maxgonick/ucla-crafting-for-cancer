@@ -118,3 +118,61 @@ nav {
   transition: all 0.3s ease-in-out;
   background-color: #101010;
 }
+
+.body-container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#sign,
+#out {
+  display: inline-block;
+  padding: 0.3em 1.2em;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 2em;
+  box-sizing: border-box;
+  border-color: #4eb5f1;
+  border-style: solid;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  background-color: #4eb5f1;
+  text-align: center;
+  transition: all 0.2s;
+  font-size: 2rem;
+  flex-grow: 0;
+}
+
+#sign:hover,
+#out:hover {
+  background-color: #4095c6;
+  transform: scale(1.1);
+}
+
+/* @media all and (max-width: 30em) {
+  #sign,
+  #out {
+    display: block;
+    margin: 0.2em auto;
+  }
+} */
+
+.signin,
+.checkout {
+  font-size: 1.5rem;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+hr {
+  border-top: 1px solid black;
+  width: 80%;
+  flex-basis: 100%;
+}

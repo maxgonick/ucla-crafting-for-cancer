@@ -223,3 +223,7 @@ hr {
   width: 80%;
   flex-basis: 100%;
 }
+
+.venmo {
+  font-weight: 400;
+}
