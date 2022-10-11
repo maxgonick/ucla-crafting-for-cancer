@@ -189,3 +189,9 @@ ol > li::before {
   transition: all 0.3s ease-in-out;
   background-color: #101010;
 }
+
+hr {
+  border-top: 1px solid black;
+  width: 80%;
+  flex-basis: 100%;
+}
