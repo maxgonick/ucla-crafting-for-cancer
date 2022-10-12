@@ -19,6 +19,7 @@ nav {
   align-items: center;
   /* background-color: #b9d9eb; */
   background-color: #def3fd;
+  position: relative;
 }
 /* navbar links */
 .nav-holder > li > a {
