@@ -54,6 +54,12 @@ nav {
   margin: 0 0.5rem 0.6rem 0.5rem;
 }
 
+.title {
+  border: solid;
+  font-weight: 500;
+  padding: 1rem;
+}
+
 /* 4 element ul */
 .nav-holder {
   list-style: none;
