@@ -140,6 +140,7 @@ nav {
   justify-content: space-around;
   height: 100%;
   flex: 1;
+  margin: 3rem;
 }
 
 h2 {

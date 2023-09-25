@@ -144,7 +144,8 @@ nav {
 } */
 
 #groupme,
-#form {
+#form,
+#mailinglist{
   display: inline-block;
   padding: 0.3em 1.2em;
   margin: 0 0.3em 0.3em 0;
@@ -163,14 +164,15 @@ nav {
 }
 
 #groupme:hover,
-#form:hover {
+#form:hover,
+#mailinglist:hover {
   background-color: #4095c6;
   transform: scale(1.1);
 }
 
 @media all and (max-width: 30em) {
   #groupme,
-  #form {
+  #form, #mailinglist {
     display: block;
     margin: 0.2em auto;
   }
@@ -182,7 +184,7 @@ nav {
 
 .contact-us,
 .application-blurb,
-.interest-form {
+.interest-form, .mailing-list{
   font-size: 1.5rem;
   font-weight: 500;
 }
@@ -196,7 +198,7 @@ footer {
 } */
 
 .contact-us,
-.interest-form {
+.interest-form, .mailing-list {
   text-align: center;
   line-height: 4rem;
 }
