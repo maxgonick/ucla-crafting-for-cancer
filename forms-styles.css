@@ -121,14 +121,15 @@ nav {
 
 .body-container {
   display: flex;
-  flex: 1;
   flex-direction: column;
-  align-items: center;
   justify-content: space-evenly;
+  align-items: center;
+  padding-inline: 1rem;
 }
 
+
 #sign,
-#out {
+#Venmo {
   display: inline-block;
   padding: 0.3em 1.2em;
   margin: 0 0.3em 0.3em 0;
@@ -148,7 +149,7 @@ nav {
 }
 
 #sign:hover,
-#out:hover {
+#Venmo:hover {
   background-color: #4095c6;
   transform: scale(1.1);
 }
@@ -161,14 +162,25 @@ nav {
   }
 } */
 
-.signin,
-.checkout {
+.signin, .Venmo {
+  font-size: 1.5rem;
+  font-weight: 500;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.description{
   font-size: 1.5rem;
   font-weight: 500;
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   gap: 1rem;
+  margin-top: 5%;
 }
 
 hr {

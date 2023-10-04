@@ -176,7 +176,7 @@ ol > li::before {
   font-weight: 700;
 }
 .body-container > a:hover {
-  box-shadow: inset 20rem 0 0 0 #54b3d6;
+  box-shadow: inset 60rem 0 0 0 #54b3d6;
   color: white;
 }
 
