@@ -58,6 +58,7 @@ nav {
   border: solid;
   font-weight: 500;
   padding: 1rem;
+  text-decoration: none;
 }
 
 /* 4 element ul */
@@ -148,6 +149,10 @@ h2 {
   text-align: center;
 }
 
+a{
+  text-align: center;
+}
+
 ol {
   counter-reset: list;
   text-align: center;
@@ -201,4 +206,8 @@ hr {
   border-top: 1px solid black;
   width: 80%;
   flex-basis: 100%;
+}
+
+h3{
+  text-align: center
 }
