@@ -2,6 +2,7 @@ window.addEventListener("load", (event) => {
   const hamburger = document.querySelector(".hamburger");
   const navHolder = document.querySelector(".nav-holder");
   const navLink = document.querySelectorAll(".nav-holder > li > a");
+  const body =  document.querySelector(".body-container");
   let height = document.querySelector("nav").offsetHeight;
 
   hamburger.addEventListener("click", mobileMenu);
@@ -18,8 +19,10 @@ window.addEventListener("load", (event) => {
     navHolder.classList.toggle("active");
     if (navHolder.getAttribute("class").includes("active")) {
       navHolder.style.top = `${height}px`;
+      body.style.display = "none";
     } else {
       navHolder.style.top = `-100%`;
+      body.style.display = "block";
     }
   }
 });
