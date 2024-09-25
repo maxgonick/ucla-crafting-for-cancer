@@ -146,7 +146,7 @@ nav {
 
 #groupme,
 #form,
-#mailinglist{
+#mailinglist, #Venmo{
   display: inline-block;
   padding: 0.3em 1.2em;
   margin: 0 0.3em 0.3em 0;
@@ -166,14 +166,15 @@ nav {
 
 #groupme:hover,
 #form:hover,
-#mailinglist:hover {
+#mailinglist:hover,
+#Venmo:hover {
   background-color: #4095c6;
   transform: scale(1.1);
 }
 
 @media all and (max-width: 30em) {
   #groupme,
-  #form, #mailinglist {
+  #form, #mailinglist, #Venmo {
     display: block;
     margin: 0.2em auto;
   }
@@ -185,7 +186,7 @@ nav {
 
 .contact-us,
 .application-blurb,
-.interest-form, .mailing-list{
+.interest-form, .mailing-list, .description{
   font-size: 1.5rem;
   font-weight: 500;
 }
@@ -199,7 +200,7 @@ footer {
 } */
 
 .contact-us,
-.interest-form, .mailing-list {
+.interest-form, .mailing-list, .description {
   text-align: center;
   line-height: 4rem;
 }
